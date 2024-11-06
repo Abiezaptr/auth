@@ -1,9 +1,9 @@
 
 CLIENT_ID = ''
 CLIENT_SECRET = ''
-REDIRECT_URI_MCI = 'https://192.168.0.127:5000/login/authorized'
-REDIRECT_URI_PORTAL = 'https://192.168.0.127:5000/login/authorized'
-REDIRECT_URI_PORTALNEWS = 'https://192.168.0.127:5000/login/authorized'
+REDIRECT_URI_MCI = 'https://10.2.114.197:5000/login/authorized'
+REDIRECT_URI_PORTAL = 'https://10.2.114.197:5000/login/authorized'
+REDIRECT_URI_PORTALNEWS = 'https://10.2.114.197:5000/login/authorized'
 
 AUTHORITY_URL = 'https://login.microsoftonline.com/common'
 

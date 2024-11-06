@@ -89,21 +89,21 @@ def authorized():
     # Redirect based on the app_type
     if app_type == 'mci':
         redirect_url = (
-            f"https://192.168.0.178/mcitsel/callback?displayName={graph_data.get('displayName')}&"
+            f"https://10.2.114.197/mcitsel/callback?displayName={graph_data.get('displayName')}&"
             f"id={graph_data.get('id')}&jobTitle={graph_data.get('jobTitle')}&"
             f"mail={graph_data.get('mail')}&mobilePhone={graph_data.get('mobilePhone')}&"
             f"officeLocation={graph_data.get('officeLocation')}"
         )
     elif app_type == 'portal':
         redirect_url = (
-            f"https://192.168.0.178/portaldashboardv2/callback?displayName={graph_data.get('displayName')}&"
+            f"https://10.2.114.197/portaldashboardv2/callback?displayName={graph_data.get('displayName')}&"
             f"id={graph_data.get('id')}&jobTitle={graph_data.get('jobTitle')}&"
             f"mail={graph_data.get('mail')}&mobilePhone={graph_data.get('mobilePhone')}&"
             f"officeLocation={graph_data.get('officeLocation')}"
         )
     else:  # For 'portalnews'
         redirect_url = (
-            f"https://192.168.0.127/portalnews/callback?displayName={graph_data.get('displayName')}&"
+            f"https://10.2.114.197/portalnews/callback?displayName={graph_data.get('displayName')}&"
             f"id={graph_data.get('id')}&jobTitle={graph_data.get('jobTitle')}&"
             f"mail={graph_data.get('mail')}&mobilePhone={graph_data.get('mobilePhone')}&"
             f"officeLocation={graph_data.get('officeLocation')}"
